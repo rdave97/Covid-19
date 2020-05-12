@@ -1,10 +1,18 @@
-# Covid-19 Tracker Application
-Step 1: Install VUE CLI on your machine to host vue JS applications 
-Command: npm install -g vue-cli
+# covid19
 
-Step 2: For installing dependencies
-Command: NPM INSTALL
+> A Vue.js project
 
+## Build Setup
 
-Step3: To launch the application on your local host
-Command: NPM RUN DEV
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

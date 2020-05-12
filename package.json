@@ -1,0 +1,51 @@
+{
+  "name": "covid19",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.13.0",
+    "chart.js": "^2.9.3",
+    "countup.js": "^2.0.5",
+    "echarts": "^4.7.0",
+    "echarts-leaflet": "^1.1.0",
+    "echarts-vue": "^1.1.5",
+    "leaflet": "^1.6.0",
+    "leaflet-vue": "^0.1.0",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.0",
+    "vue-chartkick": "^0.6.0",
+    "vue-countup-v2": "^4.0.0",
+    "vue-echarts": "^5.0.0-beta.0",
+    "vue-google-charts": "^0.3.2",
+    "vue-material": "^1.0.0-beta-13",
+    "vue-resource": "^1.5.1",
+    "vue2-leaflet": "^2.5.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
